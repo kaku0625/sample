@@ -1,4 +1,4 @@
-package co.jp.mamol.myapp.service;
+package myapp;
 
 import java.util.List;
 
@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import co.jp.mamol.myapp.dto.SizaiDto;
-import myapp.BuyApprovalDao;
 
 @Service
 public class BuyApprovalService {

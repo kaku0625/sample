@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import co.jp.mamol.myapp.action.BaseAction;
 import co.jp.mamol.myapp.dto.SizaiDto;
 import co.jp.mamol.myapp.dto.UserDto;
-import co.jp.mamol.myapp.service.BuyApprovalService;
 
 @Results({
 		@Result(name = "approvalList", location = "/WEB-INF/jsp/approvalList.jsp"),
