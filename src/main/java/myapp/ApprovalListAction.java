@@ -1,4 +1,4 @@
-package co.jp.mamol.myapp.action;
+package myapp;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -9,9 +9,9 @@ import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import co.jp.mamol.myapp.action.BaseAction;
 import co.jp.mamol.myapp.dto.SizaiDto;
 import co.jp.mamol.myapp.dto.UserDto;
-import co.jp.mamol.myapp.form.ApprovalListForm;
 import co.jp.mamol.myapp.service.BuyApprovalService;
 
 @Results({

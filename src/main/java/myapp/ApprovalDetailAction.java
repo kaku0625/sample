@@ -1,12 +1,12 @@
-package co.jp.mamol.myapp.action;
+package myapp;
 
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import co.jp.mamol.myapp.action.BaseAction;
 import co.jp.mamol.myapp.dto.SizaiDto;
-import co.jp.mamol.myapp.form.ApprovalDetailForm;
 import co.jp.mamol.myapp.service.BuyApprovalService;
 
 @Results({

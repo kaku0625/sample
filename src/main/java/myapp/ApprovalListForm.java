@@ -1,4 +1,4 @@
-package co.jp.mamol.myapp.form;
+package myapp;
 
 import java.util.List;
 

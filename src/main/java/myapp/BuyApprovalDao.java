@@ -1,4 +1,4 @@
-package co.jp.mamol.myapp.dao;
+package myapp;
 
 import java.util.List;
 

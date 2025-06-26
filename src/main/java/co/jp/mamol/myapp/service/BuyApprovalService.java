@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import co.jp.mamol.myapp.dao.BuyApprovalDao;
 import co.jp.mamol.myapp.dto.SizaiDto;
+import myapp.BuyApprovalDao;
 
 @Service
 public class BuyApprovalService {
